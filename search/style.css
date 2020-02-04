@@ -1,0 +1,19 @@
+body{
+  text-align: center;
+  padding: 20px;
+}
+
+img{
+  max-width: 20%;
+  height: auto;
+  padding: 50px;
+}
+
+.links{
+  text-align: right;
+}
+
+.searchbar{
+  padding: 20px;
+  border-radius: 25px;
+}
