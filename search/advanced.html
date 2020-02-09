@@ -7,16 +7,24 @@
     </head>
     <body>
       <div class="links">
+        <a class="btn btn-primary" href="index.html" role="button">Search</a>
         <a class="btn btn-primary" href="images.html" role="button">Images</a>
-        <a class="btn btn-primary" href="advanced.html" role="button">Advanced</a>
       </div>
         <img src="https://cdn.pixabay.com/photo/2015/11/02/14/01/google-1018443_1280.png" alt="Google logo, courtesy of Tumisu on Pixabay">
         <div class="searchbar">
           <form action="https://google.com/search">
-            <input class="form-control" placeholder="Search" type="text" name="q">
+            <input class="form-control" placeholder="Find all these words" type="text" name="as_q">
         </div>
-            <input class="btn btn-primary" type="submit" value="Google Search">
-            <input class="btn btn-primary" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="gbqfbb" name="btnI" type="submit" data-ved="0ahUKEwjo_4ePs7TnAhVlmuAKHSpOA_kQnRsIDQ"> <!--I'm Feeling Lucky implementation by Steven Pace-->
+        <div class="searchbar">
+            <input class="form-control" placeholder="Find this exact word or phrase" type="text" name="as_epq">
+        </div>
+        <div class="searchbar">
+            <input class="form-control" placeholder="Find any of these words" type="text" name="as_oq">
+        </div>
+        <div class="searchbar">
+            <input class="form-control" placeholder="Find none of these words" type="text" name="as_eq">
+        </div>
+            <input class="btn btn-primary" type="submit" value="Google Advanced Search">
         </form>
     </body>
 </html>
